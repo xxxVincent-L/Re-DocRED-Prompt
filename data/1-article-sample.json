@@ -1,0 +1,577 @@
+[
+  {
+    "title": "Loud Tour",
+    "vertexSet": [
+      [
+        {
+          "name": "Loud",
+          "pos": [
+            23,
+            24
+          ],
+          "sent_id": 1,
+          "type": "MISC",
+          "global_pos": [
+            41,
+            41
+          ],
+          "index": "0_0"
+        },
+        {
+          "name": "Loud Tour",
+          "pos": [
+            1,
+            3
+          ],
+          "sent_id": 6,
+          "type": "MISC",
+          "global_pos": [
+            128,
+            128
+          ],
+          "index": "0_1"
+        },
+        {
+          "name": "Loud Tour",
+          "pos": [
+            1,
+            3
+          ],
+          "sent_id": 0,
+          "type": "MISC",
+          "global_pos": [
+            1,
+            1
+          ],
+          "index": "0_2"
+        },
+        {
+          "name": "Loud Tour",
+          "pos": [
+            1,
+            3
+          ],
+          "sent_id": 3,
+          "type": "MISC",
+          "global_pos": [
+            67,
+            67
+          ],
+          "index": "0_3"
+        }
+      ],
+      [
+        {
+          "name": "Barbadian",
+          "pos": [
+            13,
+            14
+          ],
+          "sent_id": 0,
+          "type": "LOC",
+          "global_pos": [
+            13,
+            13
+          ],
+          "index": "1_0"
+        }
+      ],
+      [
+        {
+          "name": "Rihanna",
+          "pos": [
+            3,
+            4
+          ],
+          "sent_id": 4,
+          "type": "PER",
+          "global_pos": [
+            93,
+            93
+          ],
+          "index": "2_0"
+        },
+        {
+          "name": "Rihanna",
+          "pos": [
+            15,
+            16
+          ],
+          "sent_id": 2,
+          "type": "PER",
+          "global_pos": [
+            61,
+            61
+          ],
+          "index": "2_1"
+        },
+        {
+          "name": "Rihanna",
+          "pos": [
+            18,
+            19
+          ],
+          "sent_id": 1,
+          "type": "PER",
+          "global_pos": [
+            36,
+            36
+          ],
+          "index": "2_2"
+        },
+        {
+          "name": "Rihanna",
+          "pos": [
+            16,
+            17
+          ],
+          "sent_id": 0,
+          "type": "PER",
+          "global_pos": [
+            16,
+            16
+          ],
+          "index": "2_3"
+        }
+      ],
+      [
+        {
+          "name": "twenty",
+          "pos": [
+            3,
+            4
+          ],
+          "sent_id": 1,
+          "type": "NUM",
+          "global_pos": [
+            21,
+            21
+          ],
+          "index": "3_0"
+        }
+      ],
+      [
+        {
+          "name": "Americas",
+          "pos": [
+            7,
+            8
+          ],
+          "sent_id": 1,
+          "type": "LOC",
+          "global_pos": [
+            25,
+            25
+          ],
+          "index": "4_0"
+        }
+      ],
+      [
+        {
+          "name": "Europe",
+          "pos": [
+            9,
+            10
+          ],
+          "sent_id": 1,
+          "type": "LOC",
+          "global_pos": [
+            27,
+            27
+          ],
+          "index": "5_0"
+        }
+      ],
+      [
+        {
+          "pos": [
+            25,
+            26
+          ],
+          "type": "TIME",
+          "sent_id": 1,
+          "name": "2010",
+          "global_pos": [
+            43,
+            43
+          ],
+          "index": "6_0"
+        }
+      ],
+      [
+        {
+          "name": "United Kingdom",
+          "pos": [
+            18,
+            20
+          ],
+          "sent_id": 3,
+          "type": "LOC",
+          "global_pos": [
+            84,
+            84
+          ],
+          "index": "7_0"
+        }
+      ],
+      [
+        {
+          "name": "London",
+          "pos": [
+            1,
+            2
+          ],
+          "sent_id": 4,
+          "type": "LOC",
+          "global_pos": [
+            91,
+            91
+          ],
+          "index": "8_0"
+        }
+      ],
+      [
+        {
+          "pos": [
+            8,
+            9
+          ],
+          "type": "NUM",
+          "sent_id": 4,
+          "name": "10",
+          "global_pos": [
+            98,
+            98
+          ],
+          "index": "9_0"
+        }
+      ],
+      [
+        {
+          "sent_id": 4,
+          "type": "LOC",
+          "pos": [
+            11,
+            14
+          ],
+          "name": "The O2 Arena",
+          "global_pos": [
+            101,
+            101
+          ],
+          "index": "10_0"
+        }
+      ],
+      [
+        {
+          "pos": [
+            8,
+            11
+          ],
+          "type": "NUM",
+          "sent_id": 5,
+          "name": "US$90 million",
+          "global_pos": [
+            113,
+            113
+          ],
+          "index": "11_0"
+        }
+      ],
+      [
+        {
+          "pos": [
+            12,
+            13
+          ],
+          "type": "NUM",
+          "sent_id": 5,
+          "name": "98",
+          "global_pos": [
+            117,
+            117
+          ],
+          "index": "12_0"
+        }
+      ],
+      [
+        {
+          "pos": [
+            20,
+            21
+          ],
+          "type": "NUM",
+          "sent_id": 5,
+          "name": "1,200,800",
+          "global_pos": [
+            125,
+            125
+          ],
+          "index": "13_0"
+        }
+      ],
+      [
+        {
+          "pos": [
+            11,
+            12
+          ],
+          "type": "TIME",
+          "sent_id": 6,
+          "name": "2011",
+          "global_pos": [
+            138,
+            138
+          ],
+          "index": "14_0"
+        }
+      ]
+    ],
+    "labels": [
+      {
+        "r": "P577",
+        "h": 0,
+        "t": 6,
+        "evidence": [
+          1
+        ]
+      },
+      {
+        "r": "P175",
+        "h": 0,
+        "t": 2,
+        "evidence": [
+          0,
+          1
+        ]
+      },
+      {
+        "r": "P131",
+        "h": 10,
+        "t": 8,
+        "evidence": [
+          4
+        ]
+      },
+      {
+        "r": "P17",
+        "h": 8,
+        "t": 7,
+        "evidence": [
+          3,
+          4
+        ]
+      },
+      {
+        "r": "P17",
+        "h": 10,
+        "t": 7,
+        "evidence": [
+          3,
+          4
+        ]
+      },
+      {
+        "h": 2,
+        "t": 1,
+        "r": "P27",
+        "evidence": []
+      },
+      {
+        "h": 8,
+        "t": 5,
+        "r": "P30",
+        "evidence": []
+      },
+      {
+        "h": 0,
+        "t": 14,
+        "r": "P577",
+        "evidence": []
+      },
+      {
+        "h": 2,
+        "t": 0,
+        "r": "P800",
+        "evidence": [
+          0,
+          1
+        ]
+      },
+      {
+        "h": 8,
+        "t": 7,
+        "r": "P131",
+        "evidence": [
+          3,
+          4
+        ]
+      },
+      {
+        "h": 10,
+        "t": 7,
+        "r": "P131",
+        "evidence": [
+          3,
+          4
+        ]
+      }
+    ],
+    "sents": [
+      [
+        "The",
+        "Loud",
+        "Tour",
+        "was",
+        "the",
+        "fourth",
+        "overall",
+        "and",
+        "third",
+        "world",
+        "concert",
+        "tour",
+        "by",
+        "Barbadian",
+        "recording",
+        "artist",
+        "Rihanna",
+        "."
+      ],
+      [
+        "Performing",
+        "in",
+        "over",
+        "twenty",
+        "countries",
+        "in",
+        "the",
+        "Americas",
+        "and",
+        "Europe",
+        ",",
+        "the",
+        "tour",
+        "was",
+        "launched",
+        "in",
+        "support",
+        "of",
+        "Rihanna",
+        "'s",
+        "fifth",
+        "studio",
+        "album",
+        "Loud",
+        "(",
+        "2010",
+        ")",
+        "."
+      ],
+      [
+        "Critics",
+        "acclaimed",
+        "the",
+        "show",
+        "for",
+        "its",
+        "liveliness",
+        "and",
+        "higher",
+        "caliber",
+        "of",
+        "quality",
+        "when",
+        "compared",
+        "to",
+        "Rihanna",
+        "'s",
+        "previous",
+        "tours",
+        "."
+      ],
+      [
+        "The",
+        "Loud",
+        "Tour",
+        "was",
+        "a",
+        "large",
+        "commercial",
+        "success",
+        ",",
+        "experiencing",
+        "demand",
+        "for",
+        "an",
+        "extension",
+        "of",
+        "shows",
+        "in",
+        "the",
+        "United",
+        "Kingdom",
+        "due",
+        "to",
+        "popularity",
+        "."
+      ],
+      [
+        "In",
+        "London",
+        ",",
+        "Rihanna",
+        "played",
+        "a",
+        "record",
+        "breaking",
+        "10",
+        "dates",
+        "at",
+        "The",
+        "O2",
+        "Arena",
+        "."
+      ],
+      [
+        "The",
+        "tour",
+        "ultimately",
+        "grossed",
+        "an",
+        "estimated",
+        "value",
+        "of",
+        "US$",
+        "90",
+        "million",
+        "from",
+        "98",
+        "reported",
+        "shows",
+        "and",
+        "a",
+        "total",
+        "audience",
+        "of",
+        "1,200,800",
+        "."
+      ],
+      [
+        "The",
+        "Loud",
+        "Tour",
+        "became",
+        "the",
+        "seventh",
+        "-",
+        "highest",
+        "grossing",
+        "tour",
+        "of",
+        "2011",
+        "."
+      ]
+    ]
+  }
+]
