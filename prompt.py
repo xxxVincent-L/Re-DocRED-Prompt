@@ -38,6 +38,32 @@ def relation_triple(labels, vertex_set,):
 
     return triples
 
+# Entity's Type
+
+entity_type_dict = {
+    'MISC': 'not of a specific type',
+    'PER': 'person',
+    'ORG': 'organization',
+    'LOC': 'location',
+    'TIME': 'time',
+    'NUM': 'number'
+
+}
+
+def entity_type(vertex_set):
+
+    name_type_dict = collections.defaultdict(int)
+    for sample in vertex_set:
+#         name = vertex_set[sample['h']][0]['name']
+        name = sample[0]['name']
+        entity_type = sample[0]['type']
+#         entity_type = vertex_set[sample['h']][0]['type']
+        original_type = entity_type_dict[entity_type]
+
+        name_type_dict[name] = original_type
+
+    return name_type_dict
+
 def relation_combination(triple):
 
     new_triple = []
@@ -115,14 +141,16 @@ def preprocess(article_data):
     sentence_list = [' '.join(s) for s in sentence]
     paragraph = ' '.join(sentence_list)
     words_list = paragraph.split(" ")
-    print(words_list[41], words_list[43])
+#     print(words_list[41], words_list[43])
 
 
     # Process the relation and generate the triples
 
     rel_in_prompt = relations_design(relation_file, rel_dict)
     triples = relation_combination(relation_triple(labels, vertex_set))
-    return triples, rel_in_prompt, paragraph
+    name_type_dict = entity_type(vertex_set)
+#     print(name_type_dict)
+    return triples, rel_in_prompt, paragraph, name_type_dict
 
 
 # Different Instructions
@@ -135,21 +163,26 @@ def instructions_design():
     instruction['attention'] = 'Attention: You are restricted to choose from the following relationships and if there are matching relationships below, please output the relations directly, otherwise output "NONE":\n'
     instruction['orderOfEntity'] = 'Instruction: the paragraph is from an article of Wikipedia.<SEP> For entity "<SEP>", what relationship is entity "<SEP>" to it?'
     instruction['orderOfParagraph'] = 'Instruction: the paragraph is from an article of Wikipedia.<SEP> Specify the relations that exist between the entity "<SEP>" and entity "<SEP>" based on the paragraph.'
+    instruction['entityType'] = 'The type of the entity "<SEP>" is "<SEP>", and the type of the entity "<SEP>" is "<SEP>". '
     instruction['evidence'] = 'The two entities show in the sentence: [<SEP>]'
+
     return instruction
 
-def prompt_design(head_entity,tail_entity, rel_in_prompt, paragraph):
+def prompt_design(head_entity,tail_entity, rel_in_prompt, paragraph, name_type_dict):
+
+    head_type = name_type_dict[head_entity]
+    tail_type = name_type_dict[tail_entity]
+
     instructions = instructions_design()
     instruction = [instructions['orderOfEntity']][0].split("<SEP>")
+    type_instruction = [instructions['entityType']][0].split("<SEP>")
 
-#     concat_instruction = instruction[0]+head_entity+instruction[1]+tail_entity+instruction[2] + '\n' + instructions_design()['attention']+'\n'
     paragraph_instruction = instruction[0] +'\n"""\n' + paragraph + '\n"""\n'
 
-#     concat_instruction = instruction[1]+head_entity+instruction[2]+tail_entity+instruction[3] + '\n'
-
-    # concat_instruction = instruction[1]+head_entity+instruction[2]+tail_entity+instruction[3] + ' The two entities show in the sentence: [Performing in over twenty countries in the Americas and Europe , the tour was launched in support of Rihanna \'s fifth studio album Loud ( 2010 )] \n'
+    type_instruction =  type_instruction[0]+ head_entity + type_instruction[1] + head_type + type_instruction[2]+ tail_entity + type_instruction[3] + tail_type + type_instruction[4]
 
     concat_instruction = instruction[1]+head_entity+instruction[2]+tail_entity+instruction[3]
+
     sentence_instruction = [instructions['orderOfParagraph']][0].split("<SEP>")[0]
 
     handcrafted_prompt = paragraph_instruction+concat_instruction + '\n' + instructions['attention'] + rel_in_prompt + '\n'
@@ -181,7 +214,7 @@ def gpt(my_prompt):
 
     return response
 
-def relation_classification(triples, rel_in_prompt_group, paragraph):
+def relation_classification(triples, rel_in_prompt_group, paragraph, name_type_dict):
     total = 0
     correct = 0
     prediction = 0
@@ -193,7 +226,7 @@ def relation_classification(triples, rel_in_prompt_group, paragraph):
 
         for rel_in_prompt in rel_in_prompt_group:
 
-            prompt = prompt_design(head_entity,tail_entity, rel_in_prompt, paragraph)
+            prompt = prompt_design(head_entity,tail_entity, rel_in_prompt, paragraph, name_type_dict)
             print("Prompt==============")
             print(prompt)
             print("Output==============")
@@ -267,9 +300,9 @@ def batch(data):
     # For all the documents in the dataset
     for i in range(len(data)):
         article_data = data[i]
-        triples, rel_in_prompt_group, paragraph = preprocess(article_data)
+        triples, rel_in_prompt_group, paragraph, name_type_dict = preprocess(article_data)
         print(triples)
-        c,t,pred = relation_classification(triples, rel_in_prompt_group, paragraph)
+        c,t,pred = relation_classification(triples, rel_in_prompt_group, paragraph, name_type_dict)
         correct += c
         total += t
         predictions += pred
@@ -284,4 +317,4 @@ def batch(data):
 #         break
 
 
-# batch(data)
+batch(data)
