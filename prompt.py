@@ -12,7 +12,7 @@ import random
 
 test_file = './data/test_revised.json'
 relation_file = './data/relations.txt'
-
+toy_dataset = './data/self-made-dataset.json'
 # docred_file = './data/docred-test.json'
 
 

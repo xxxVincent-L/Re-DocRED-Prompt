@@ -1,0 +1,879 @@
+[{
+    "title": "TikTok says US threatens ban if China stake not sold",
+    "vertexSet": [
+      [{
+          "name": "World Cup",
+          "pos": [
+            3,
+            5
+          ],
+          "sent_id": 0,
+          "type": "MISC",
+          "global_pos": [
+            3,
+            3
+          ],
+          "index": "0_0"
+        }
+
+      ],
+      [{
+        "name": "2022",
+        "pos": [
+          1,
+          2
+        ],
+        "sent_id": 0,
+        "type": "TIME",
+        "global_pos": [
+          1,
+          1
+        ],
+        "index": "1_0"
+      }],
+      [{
+        "name": "Asia",
+        "pos": [
+          32,
+          33
+        ],
+        "sent_id": 1,
+        "type": "LOC",
+        "global_pos": [
+          50,
+          50
+        ],
+        "index": "2_0"
+      }],
+      [{
+        "name": "Qatar",
+        "pos": [
+          4,
+          5
+        ],
+        "sent_id": 1,
+        "type": "LOC",
+        "global_pos": [
+          22,
+          22
+        ],
+        "index": "3_0"
+      }],
+      [{
+        "name": "Japan",
+        "pos": [
+          41,
+          42
+        ],
+        "sent_id": 1,
+        "type": "LOC",
+        "global_pos": [
+          59,
+          59
+        ],
+        "index": "4_0"
+      }],
+      [{
+        "name": "2002 tournament",
+        "pos": [
+          35,
+          37
+        ],
+        "sent_id": 1,
+        "type": "MISC",
+        "global_pos": [
+          59,
+          59
+        ],
+        "index": "5_0"
+      }]
+
+    ],
+    "labels": [{
+        "r": "P582",
+        "h": 0,
+        "t": 1,
+        "evidence": [
+          0
+        ]
+      },
+      {
+        "r": "P361",
+        "h": 2,
+        "t": 3,
+        "evidence": [
+          1
+        ]
+      },
+      {
+        "r": "P131",
+        "h": 2,
+        "t": 3,
+        "evidence": [
+          1
+        ]
+      },
+      {
+        "r": "P131",
+        "h": 4,
+        "t": 2,
+        "evidence": [
+          1
+        ]
+      },
+      {
+        "r": "P361",
+        "h": 4,
+        "t": 2,
+        "evidence": [
+          1
+        ]
+      },
+      {
+        "r": "P30",
+        "h": 4,
+        "t": 2,
+        "evidence": [
+          1
+        ]
+      },
+      {
+        "r": "P400",
+        "h": 5,
+        "t": 4,
+        "evidence": [
+          1
+        ]
+      }
+    ],
+
+    "sents": [
+      ["The", "2022", "FIFA", "World", "Cup", "was", "an", "international", "football", "tournament", "contested", "by", "the", "men's", "national", "teams", "of", "FIFA", "'s", "member", "associations", "and", "22nd", "edition", "of", "the", "FIFA", "World", "Cup", "."],
+      ["It", "took", "place", "in", "Qatar", "from", "20", "November", "to", "18", "December", "2022,", "making", "it", "the", "first", "World", "Cup", "held", "in", "the", "Arab", "world", "and", "Muslim", "world,", "and", "the", "second", "held", "entirely", "in", "Asia", "after", "the", "2002", "tournament", "in", "South", "Korea", "and", "Japan", "."]
+    ]
+  },
+
+  {
+    "title": "Yoshiaki Itou",
+    "vertexSet": [
+      [{
+        "name": "Itou",
+        "pos": [
+          0,
+          1
+        ],
+        "sent_id": 0,
+        "type": "PER",
+        "global_pos": [
+          0,
+          0
+        ],
+        "index": "0_0"
+      }],
+      [{
+        "name": "Shaft",
+        "pos": [
+          2,
+          3
+        ],
+        "sent_id": 0,
+        "type": "ORG",
+        "global_pos": [
+          2,
+          2
+        ],
+        "index": "1_0"
+      }],
+      [{
+        "name": "Juuni Senshi Bakuretsu Eto Ranger",
+        "pos": [
+          10,
+          15
+        ],
+        "sent_id": 1,
+        "type": "MISC",
+        "global_pos": [
+          29,
+          29
+        ],
+        "index": "2_0"
+      }],
+      [{
+        "name": "1995",
+        "pos": [
+          1,
+          2
+        ],
+        "sent_id": 1,
+        "type": "TIME",
+        "global_pos": [
+          20,
+          20
+        ],
+        "index": "3_0"
+      }],
+      [{
+        "name": "Atsuhiro Iwakami",
+        "pos": [
+          6,
+          8
+        ],
+        "sent_id": 5,
+        "type": "PER",
+        "global_pos": [
+          160,
+          160
+        ],
+        "index": "4_0"
+      }],
+      [{
+        "name": "animation director",
+        "pos": [
+          55,
+          57
+        ],
+        "sent_id": 5,
+        "type": "MISC",
+        "global_pos": [
+          209,
+          209
+        ],
+        "index": "5_0"
+      }],
+      [{
+        "name": "SME Visual Works",
+        "pos": [
+          14,
+          17
+        ],
+        "sent_id": 5,
+        "type": "ORG",
+        "global_pos": [
+          168,
+          168
+        ],
+        "index": "6_0"
+      }],
+      [{
+        "name": "Aniplex",
+        "pos": [
+          19,
+          20
+        ],
+        "sent_id": 5,
+        "type": "ORG",
+        "global_pos": [
+          173,
+          173
+        ],
+        "index": "7_0"
+      }]
+
+    ],
+    "labels": [{
+        "r": "P108",
+        "h": 0,
+        "t": 1,
+        "evidence": [
+          0
+        ]
+      },
+      {
+        "r": "P800",
+        "h": 1,
+        "t": 2,
+        "evidence": []
+      },
+
+      {
+        "r": "P571",
+        "h": 2,
+        "t": 3,
+        "evidence": []
+      },
+      {
+        "r": "P577",
+        "h": 2,
+        "t": 3,
+        "evidence": []
+      },
+      {
+        "r": "P162",
+        "h": 1,
+        "t": 4,
+        "evidence": []
+
+      },
+      {
+        "r": "P39",
+        "h": 0,
+        "t": 5,
+        "evidence": []
+      },
+      {
+        "r": "P463",
+        "h": 0,
+        "t": 5,
+        "evidence": []
+      },
+      {
+        "r": "P1365",
+        "h": 6,
+        "t": 7,
+        "evidence": []
+      }
+    ],
+    "sents": [
+      ["Itou", "joined", "Shaft", "in", "1987", "as", "an", "in-between", "animator,", "and", "by", "1989", "he", "was", "promoted", "to", "key", "animator"],
+      ["In", "1995,", "the", "studio", "produced", "its", "first", "original", "televised", "work,", "Juuni", "Senshi", "Bakuretsu", "Eto", "Ranger,", "which", "featured", "Itou's", "promotion", "to", "animation", "director", "."],
+      ["Shaft", "received", "numerous", "outsourcing", "jobs", "throughout", "the", "90s", "of", "varying", "genres", "and", "styles,", "some", "of", "which", "had", "cute", "characters", "and", "comedy-oriented", "stories,", "and", "others", "which", "were", "more", "serious", "and", "had", "less-than-cute", "characters", "."],
+      ["Itou", "was", "particularly", "involved", "with", "the", "mecha", "series", "Dual!", "Parallel", "Trouble", "Adventure", "(1998),", "which", "may", "have", "led", "to", "his", "other", "mecha", "work", "on", "Dai-Guard", "(1999)", "and", "Sakura", "Wars", "(2000),", "in", "which", "he", "was", "also", "given", "the", "responsibility", "of", "mecha", "animation", "director", "for", "a", "few", "episodes", "alongside", "general", "key", "animation", "and", "animation", "direction", "roles", "."],
+      ["Itou's", "first", "role", "as", "a", "character", "designer", "wasn't", "in-house", "on", "a", "Shaft", "work,", "but", "rather", "at", "Group", "TAC", "to", "whom", "he", "was", "lent", "to", "."],
+      ["Shaft", "had", "developed", "a", "relationship", "with", "Atsuhiro", "Iwakami,", "at", "the", "time", "a", "producer", "from", "SME", "Visual", "Works", "(now", "called", "Aniplex)", "after", "Shaft", "was", "outsourced", "to", "for", "a", "few", "episodes", "of", "Android", "Kikaider:", "The", "Animation", "(2001);", "and", "Group", "TAC,", "needing", "a", "character", "designer", "for", "Gakuen", "Alice", "(2004),", "received", "Itou's", "help", "as", "both", "character", "designer", "and", "chief", "animation", "director", "due", "to", "Iwakami's", "connection", "to", "Shaft", "."]
+    ]
+  },
+
+  {
+    "title": "Hong Kong-based Cathay Pacific Airways",
+    "vertexSet": [
+      [{
+        "name": "Pacific Airways",
+        "pos": [
+          6,
+          8
+        ],
+        "sent_id": 0,
+        "type": "ORG",
+        "global_pos": [
+          6,
+          6
+        ],
+        "index": "0_0"
+      }],
+      [{
+        "name": "Ronald Lim",
+        "pos": [
+          1,
+          3
+        ],
+        "sent_id": 1,
+        "type": "PER",
+        "global_pos": [
+          32,
+          32
+        ],
+        "index": "1_0"
+      }],
+      [{
+        "name": "Nikkei Asia",
+        "pos": [
+          4,
+          6
+        ],
+        "sent_id": 1,
+        "type": "ORG",
+        "global_pos": [
+          35,
+          34
+        ],
+        "index": "2_0"
+      }],
+      [{
+        "name": "Greater Bay Area",
+        "pos": [
+          13,
+          16
+        ],
+        "sent_id": 1,
+        "type": "LOC",
+        "global_pos": [
+          44,
+          44
+        ],
+        "index": "3_0"
+      }],
+      [{
+        "name": "China",
+        "pos": [
+          23,
+          24
+        ],
+        "sent_id": 1,
+        "type": "LOC",
+        "global_pos": [
+          54,
+          54
+        ],
+        "index": "4_0"
+      }],
+      [{
+        "name": "Hong Kong",
+        "pos": [
+          25,
+          27
+        ],
+        "sent_id": 1,
+        "type": "LOC",
+        "global_pos": [
+          56,
+          56
+        ],
+        "index": "5_0"
+      }],
+      [{
+        "name": "Mainland China",
+        "pos": [
+          10,
+          12
+        ],
+        "sent_id": 2,
+        "type": "LOC",
+        "global_pos": [
+          81,
+          81
+        ],
+        "index": "6_0"
+      }],
+      [{
+        "name": "Beijing",
+        "pos": [
+          21,
+          22
+        ],
+        "sent_id": 2,
+        "type": "LOC",
+        "global_pos": [
+          92,
+          92
+        ],
+        "index": "7_0"
+      }]
+
+    ],
+    "labels": [{
+        "r": "P463",
+        "h": 0,
+        "t": 1,
+        "evidence": []
+      },
+      {
+        "r": "P108",
+        "h": 0,
+        "t": 1,
+        "evidence": []
+      },
+      {
+        "r": "P175",
+        "h": 1,
+        "t": 2,
+        "evidence": []
+      },
+      {
+        "r": "P131",
+        "h": 3,
+        "t": 4,
+        "evidence": []
+      },
+      {
+        "r": "P361",
+        "h": 3,
+        "t": 4,
+        "evidence": []
+      },
+      {
+        "r": "P131",
+        "h": 5,
+        "t": 4,
+        "evidence": []
+      },
+      {
+        "r": "P361",
+        "h": 5,
+        "t": 4,
+        "evidence": []
+      },
+      {
+        "r": "P131",
+        "h": 6,
+        "t": 4,
+        "evidence": []
+      },
+      {
+        "r": "P361",
+        "h": 6,
+        "t": 4,
+        "evidence": []
+      },
+      {
+        "r": "P36",
+        "h": 4,
+        "t": 7,
+        "evidence": []
+      },
+      {
+        "r": "P131",
+        "h": 4,
+        "t": 7,
+        "evidence": []
+      }
+    ],
+    "sents": [
+      ["HONG", "KONG", "--", "Hong", "Kong-based", "Cathay", "Pacific", "Airways", "has", "set", "its", "sights", "on", "rebuilding", "mainland", "Chinese", "routes", "and", "adding", "new", "ones", "to", "Japan", "as", "it", "strives", "for", "a", "post-pandemic", "comeback", "."],
+      ["CEO", "Ronald", "Lam", "told", "Nikkei", "Asia", "the", "company", "will", "invest", "more", "in", "the", "Greater", "Bay", "Area,", "a", "megalopolis", "of", "11", "cities", "in", "southern", "China,", "as", "Hong", "Kong", "increasingly", "becomes", "a", "gateway", "for", "travel", "into", "and", "out", "of", "the", "mainland", "."],
+      ["The", "airline", "has", "over", "110", "round-trip", "flights", "per", "week", "to", "mainland", "China,", "more", "than", "double", "what", "it", "had", "the", "week", "before", "Beijing", "resumed", "quarantine-free", "travel", "on", "Jan.8 ", "."],
+      ["These", "flights", "cater", "to", "what", "Lam", "described", "as", "'the", "most", "important", "market", "outside", "Hong", "Kong", "."],
+      ["''Increasingly", "we", "are", "seeing", "more", "people", "traveling", "by", "Hong", "Kong", "to", "go", "overseas,", "and", "vice", "versa,", "overseas", "people", "traveling", "via", "Hong", "Kong", "to", "go", "into", "the", "Greater", "Bay", "Area", "to", "go", "into", "the", "Chinese", "mainland,'", "Lam", "said", "in", "one", "of", "his", "first", "interviews", "with", "foreign", "media", "since", "becoming", "CEO", "in", "January", "."],
+      ["'We", "will", "fly", "more", "flights", "into", "the", "Chinese", "mainland", "in", "the", "coming", "months,'", "he", "added", "."],
+      ["China", "announced", "it", "will", "start", "reissuing", "tourist", "visas", "this", "week", "."]
+    ]
+  },
+  {
+    "title": "Ernie Bot",
+    "vertexSet": [
+      [{
+        "name": "Ernie Bot",
+        "pos": [
+          0,
+          2
+        ],
+        "sent_id": 0,
+        "type": "MISC",
+        "global_pos": [
+          0,
+          0
+        ],
+        "index": "0_0"
+      }],
+      [{
+        "name": "Baidu",
+        "pos": [
+          16,
+          17
+        ],
+        "sent_id": 0,
+        "type": "ORG",
+        "global_pos": [
+          16,
+          16
+        ],
+        "index": "1_0"
+      }],
+      [{
+        "name": "2019",
+        "pos": [
+          20,
+          21
+        ],
+        "sent_id": 0,
+        "type": "TIME",
+        "global_pos": [
+          20,
+          20
+        ],
+        "index": "2_0"
+      }],
+      [{
+        "name": "Ernie 3.0-Titan",
+        "pos": [
+          9,
+          13
+        ],
+        "sent_id": 1,
+        "type": "MISC",
+        "global_pos": [
+          31,
+          31
+        ],
+        "index": "3_0"
+      }],
+      [{
+        "name": "March 17, 2023",
+        "pos": [
+          4,
+          7
+        ],
+        "sent_id": 2,
+        "type": "TIME",
+        "global_pos": [
+          38,
+          38
+        ],
+        "index": "4_0"
+      }],
+      [{
+        "name": "Wenxin Yiyin",
+        "pos": [
+          11,
+          13
+        ],
+        "sent_id": 3,
+        "type": "MISC",
+        "global_pos": [
+          54,
+          54
+        ],
+        "index": "5_0"
+      }],
+      [{
+        "name": "March 27",
+        "pos": [
+          21,
+          23
+        ],
+        "sent_id": 3,
+        "type": "TIME",
+        "global_pos": [
+          64,
+          64
+        ],
+        "index": "6_0"
+      }]
+
+    ],
+    "labels": [{
+        "r": "P178",
+        "h": 0,
+        "t": 1,
+        "evidence": [0]
+      },
+      {
+        "r": "P176",
+        "h": 0,
+        "t": 1,
+        "evidence": [0]
+      },
+      {
+        "r": "P571",
+        "h": 0,
+        "t": 2,
+        "evidence": [0]
+      },
+      {
+        "r": "P527",
+        "h": 3,
+        "t": 0,
+        "evidence": []
+      },
+      {
+        "r": "P577",
+        "h": 3,
+        "t": 4,
+        "evidence": []
+      },
+      {
+        "r": "P577",
+        "h": 5,
+        "t": 6,
+        "evidence": []
+      }
+    ],
+    "sents": [
+      ["Ernie", "Bot,", "full", "name", "Enhanced", "Representation", "through", "Knowledge", "Integration,", "is", "an", "AI", "chatbot", "service", "product", "of", "Baidu,", "under", "development", "since", "2019", "."],
+      ["It", "is", "based", "on", "a", "large", "language", "model", "named", "'Ernie", "3.0", "-", "Titan'", "."],
+      ["It", "was", "released", "on", "March", "17,", "2023", "."],
+      ["On", "March", "20,", "2023,", "Baidu", "announced", "on", "its", "official", "WeChat", "that", "Wenxin", "Yiyin", "cloud", "service", "was", "supposed", "to", "be", "available", "on", "March", "27,", "but", "the", "launch", "was", "delayed", "to", "an", "unknown", "date", "."],
+      ["Baidu", "launched", "Wenxin", "Qianfan,", "an", "enterprise-level", "large", "language", "model", "service", "platform", "."],
+      ["Wenxin", "Qianfan", "includes", "not", "only", "Wenxin", "Yiyin", "but", "also", "a", "full", "set", "of", "Baidu's", "Wenxin", "Big", "Model,", "and", "the", "corresponding", "development", "tool", "chain", "."]
+    ]
+
+
+  },
+  {
+    "title": "Oppenheimer",
+    "vertexSet": [
+      [{
+        "name": "Oppenheimer",
+        "pos": [
+          0,
+          1
+        ],
+        "sent_id": 0,
+        "type": "MISC",
+        "global_pos": [
+          0,
+          0
+        ],
+        "index": "0_0"
+      }],
+      [{
+        "name": "Christopher Nolan",
+        "pos": [
+          10,
+          12
+        ],
+        "sent_id": 0,
+        "type": "PER",
+        "global_pos": [
+          10,
+          10
+        ],
+        "index": "1_0"
+      }],
+      [{
+        "name": "American Prometheus",
+        "pos": [
+          4,
+          6
+        ],
+        "sent_id": 1,
+        "type": "TIME",
+        "global_pos": [
+          17,
+          17
+        ],
+        "index": "2_0"
+      }],
+      [{
+        "name": "Kai Bird",
+        "pos": [
+          10,
+          12
+        ],
+        "sent_id": 1,
+        "type": "PER",
+        "global_pos": [
+          23,
+          23
+        ],
+        "index": "3_0"
+      }],
+      [{
+        "name": "Cillian Murphy",
+        "pos": [
+          3,
+          5
+        ],
+        "sent_id": 2,
+        "type": "PER",
+        "global_pos": [
+          32,
+          32
+        ],
+        "index": "4_0"
+      }],
+      [{
+        "name": "J. Robert Oppenheimer",
+        "pos": [
+          6,
+          9
+        ],
+        "sent_id": 2,
+        "type": "PER",
+        "global_pos": [
+          35,
+          35
+        ],
+        "index": "5_0"
+      }],
+      [{
+        "name": "theoretical physicist",
+        "pos": [
+          11,
+          13
+        ],
+        "sent_id": 2,
+        "type": "MISC",
+        "global_pos": [
+          40,
+          40
+        ],
+        "index": "6_0"
+      }],
+      [{
+        "name": "Manhattan Project",
+        "pos": [
+          27,
+          29
+        ],
+        "sent_id": 2,
+        "type": "MISC",
+        "global_pos": [
+          56,
+          56
+        ],
+        "index": "7_0"
+      }],
+      [{
+        "name": "Universal Pictures",
+        "pos": [
+          6,
+          8
+        ],
+        "sent_id": 3,
+        "type": "ORG",
+        "global_pos": [
+          80,
+          80
+        ],
+        "index": "8_0"
+      }]
+    ],
+    "labels": [{
+        "r": "P162",
+        "h": 0,
+        "t": 1,
+        "evidence": [0]
+      },
+      {
+        "r": "P57",
+        "h": 0,
+        "t": 1,
+        "evidence": [0]
+      },
+      {
+        "r": "P1441",
+        "h": 0,
+        "t": 2,
+        "evidence": [0, 1]
+      },
+      {
+        "r": "P737",
+        "h": 0,
+        "t": 2,
+        "evidence": [0, 1]
+      },
+      {
+        "r": "P50",
+        "h": 2,
+        "t": 3,
+        "evidence": [1]
+      },
+      {
+        "r": "P170",
+        "h": 2,
+        "t": 3,
+        "evidence": [1]
+      },
+      {
+        "r": "P175",
+        "h": 5,
+        "t": 4,
+        "evidence": []
+      },
+      {
+        "r": "P161",
+        "h": 5,
+        "t": 4,
+        "evidence": []
+      },
+      {
+        "r": "P710",
+        "h": 7,
+        "t": 5,
+        "evidence": []
+      },
+      {
+        "r": "P272",
+        "h": 0,
+        "t": 8,
+        "evidence": []
+      }
+    ],
+    "sents": [
+      ["Oppenheimer", "is", "an", "upcoming", "biographical", "film", "written", "and", "directed", "by", "Christopher", "Nolan", "."],
+      ["It", "is", "based", "on", "American", "Prometheus,", "a", "biography", "written", "by", "Kai", "Bird", "and", "Martin", "J.", "Sherwin", "."],
+      ["The", "film", "stars", "Cillian", "Murphy", "as", "J.", "Robert", "Oppenheimer,", "an", "American", "theoretical", "physicist", "credited", "with", "being", "the", "'father", "of", "the", "atomic", "bomb'", "for", "his", "role", "in", "the", "Manhattan", "Project", "—", "the", "World", "War", "II", "undertaking", "that", "developed", "the", "first", "nuclear", "weapons,", "with", "a", "supporting", "ensemble", "cast", "that", "includes", "Emily", "Blunt,", "Robert", "Downey", "Jr.", ",", "Matt", "Damon,", "Rami", "Malek,", "Florence", "Pugh,", "Benny", "Safdie,", "Michael", "Angarano,", "Josh", "Hartnett", "and", "Kenneth", "Branagh", "."],
+      ["It", "is", "a", "co-production", "between", "Universal", "Pictures,", "Syncopy", "Inc.", "and", "Atlas", "Entertainment,", "with", "Nolan", "producing", "the", "film", "alongside", "Emma", "Thomas", "and", "Charles", "Roven", "."]
+    ]
+  }
+]
