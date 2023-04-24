@@ -6,6 +6,8 @@
 
 To have the output of the system, you need to create a new folder 'output' under the source path.
 
+You can find slides for this project in "document".
+
 
 > To be continued!
 
